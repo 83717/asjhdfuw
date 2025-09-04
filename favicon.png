@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tencent Edgeone</title>
+    <style>
+      *{padding:0;margin:0}
+      body{width:100vw;height:100vh;background-color:#fff;background-repeat:no-repeat;background-size:cover;text-align:center;display:flex;justify-content:center;align-items:center;font-family:Microsoft YaHei,Oxygen,pingfang SC,SimHei ! important}
+      .flex-display{display:flex;align-items:center;justify-content:center}
+      #wrapper{width:500px}
+      @media screen and (min-width:1024px){.main-content{width:500px!important;margin-left:0!important;margin-right:0!important}
+      #main-text{padding:0 54px!important}
+      }.main-content{width:90%;margin-left:5%;margin-right:5%;height:180px;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:5px;border:1px solid rgba(209,217,224,0.5)}
+      .main-content img{width:70px}
+      .main-code{font-size:20px;color:rgba(0,0,0,0.9);font-weight:bold}
+      .main-title{font-size:20px;color:rgba(0,0,0,0.9)}
+      #main-text{margin-top:25px;color:rgba(0,0,0,0.9);font-size:14px;font-style:normal;font-weight:400}
+      .footer{margin-top:60px}
+      .footer-link{height:20px}
+      .footer-text{font-size:13px;font-weight:400;margin-right:10px;color:rgba(0,0,0,0.9)}
+      .footer-picture{height:18px}
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="main-content">
+        <div>
+          <span class="main-code">404: 
+          </span>
+          <span class="main-title">NOT_FOUND</span>
+        </div>
+        <p id="main-text">The page does not exist, please check the deployment record for more information</p>
+      </div>
+      <div class="flex-display footer">
+        <span class="footer-text">Powered by</span>
+        <a href="https://edgeone.ai/products/pages" class="footer-link" target="_blank">
+          <img
+            class="footer-picture"
+            src="https://cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/d6602eba-42e1-40b8-9909-b47e62b5db6b.jpg"
+          />
+        </a>
+        
+      </div>
+    </div>
+
+  </body>
+</html>
